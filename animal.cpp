@@ -12,16 +12,16 @@ string animal::hello() {
 }
 
 	//울음소리 가상함수
-virtual void animal:: Sound() {
+void animal:: Sound() {
 	cout << "동물이 인사하고 있습니다." << endl;
 	
 }
 
 int main() {
 
-	Dog::Dog a("이누", 3);
-	Cat::Cat b("나비", 2);
-	Cow::Cow c("누렁이", 5);
+	Dog a("이누", 3);
+	Cat b("나비", 2);
+	Cow c("누렁이", 5);
 
 
 }
