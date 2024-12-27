@@ -30,8 +30,7 @@ public:
 class Dog : public animal{
 public:
 	Dog(string m, int g) : animal(m, g) {
-		name = m;
-		age = g;
+		
 	}
 	
 	void Sound() {
@@ -42,8 +41,7 @@ public:
 class Cat : public animal {
 public:
 	Cat(string m, int g) : animal(m, g) {}
-	name = m;
-	age = g;
+	
 	void Sound() {
 		cout << "¾ß¿Ë!" << endl;
 	}
@@ -52,8 +50,7 @@ public:
 class Cow : public animal {
 public:
 	Cow(string m, int g) : animal(m, g) {}
-	name = m;
-	age = g;
+	
 	void Sound() {
 		cout << "À½¸Ó!" << endl;
 	}

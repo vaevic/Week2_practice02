@@ -7,6 +7,11 @@ using namespace std;
 
 int main() {
 
+	Dog a("이누", 3);
+	Cat b("나비", 2);
+	Cow c("누렁이", 5);
+
+
 	animal* ptrAni;
 	Dog ptrDog;
 	Cat ptrCat;
